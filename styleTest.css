@@ -1,0 +1,66 @@
+body{
+  background-image: url("https://ak6.picdn.net/shutterstock/videos/19311076/thumb/1.jpg");
+
+  background-size: cover; 
+
+}
+h1, h2, h3, h4{
+  text-align: center;
+}
+h2, h3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+div{
+  display: table;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+#rock{
+  background-image: url(rockImg.png);
+  background-color: transparent;
+  border-style: none;
+  height: 290px;
+  width: 300px;
+}
+
+#rock:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px grey;
+}
+
+#paper{
+  background-image: url(paperImg.png);
+  background-color: transparent;
+  border-style: none;
+  height: 290px;
+  width: 300px;
+}
+
+#paper:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px grey;
+}
+
+#scissors{
+  background-image: url(scissorsImg.png);
+  background-color: transparent;
+  border-style: none;
+  height: 290px;
+  width: 300px;
+}
+
+#scissors:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px grey;
+}
+
